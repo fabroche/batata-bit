@@ -1,0 +1,20 @@
+.main__hero {
+    width: 100%;
+    min-width: 32rem;
+    height: 50vh;
+    background-image: url("../assets/images/hero-img-x2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: var(--font-family-DM-sans);
+    font-size: var(--font-size-main-title);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main__hero h2 {
+    padding-top: 6.2rem;
+}
