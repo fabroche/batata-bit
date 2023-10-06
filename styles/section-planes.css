@@ -150,6 +150,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
 .plans-card--call-to-action span {
