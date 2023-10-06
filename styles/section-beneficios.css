@@ -6,6 +6,7 @@
     min-width: 32rem;
     height: auto;
     padding: 2rem 1rem;
+    padding-bottom: 6rem;
     background-color: var(--warm-black);
 
 }
@@ -87,4 +88,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.8rem;
+}
+@media screen and (min-width: 321px) {
+    .main__beneficios--title h2 {
+        width: 100%;
+    }
 }

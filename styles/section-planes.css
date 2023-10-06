@@ -1,7 +1,7 @@
 .main__planes-container {
     width: 100%;
     min-width: 32rem;
-    padding-bottom: 7rem;
+    padding-bottom: 4.2rem;
     text-align: center;
     background-color: var(--off-white);
 }
@@ -9,6 +9,7 @@
 .main__planes--title {
     min-width: 28.8rem;
     height: auto;
+    padding: 0 1rem;
     margin-bottom: 3rem;
 }
 
