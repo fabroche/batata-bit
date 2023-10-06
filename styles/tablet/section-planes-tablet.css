@@ -1,0 +1,10 @@
+.main__planes-cards-slider {
+    justify-content: center;
+}
+
+.main__planes-cards-slider {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    scroll-snap-type: none;
+    scroll-behavior: unset;
+}

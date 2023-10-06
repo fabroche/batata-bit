@@ -1,0 +1,72 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 33.4rem;
+    text-align: center;
+    background: var(--linear-bg);
+    color: var(--just-white);
+}
+
+.header__main-logo {
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+
+.header__title-container {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    gap: 3.2rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+
+}
+
+.header__title-container h1 {
+    font-size: var(--font-size-main-title);
+    font-weight: bold;
+    line-height: var(--line-height--main-title);
+}
+
+.header__title-container p {
+    font-size: var(--font-size-text);
+    font-weight: 500;
+    line-height: var(--line-height--text);
+    color: var(--soft-orange);
+}
+
+.header__title-container .header__button {
+    position: absolute;
+    top: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*gap: 0.8rem;*/
+    margin-top: 3.2rem;
+    padding: 1.2rem 1.6rem;
+    background-color: var(--off-white);
+    width: 22.9rem;
+    height: 4.8rem;
+    align-self: center;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(89, 73, 30, 0.16);
+    border: 0.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--warm-black);
+}
+
+.header__title-container span {
+    padding-top: 5px;
+}

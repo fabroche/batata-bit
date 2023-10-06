@@ -1,0 +1,96 @@
+.main__beneficios {
+    /*line-height: 1.8rem;*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    padding-bottom: 6rem;
+    background-color: var(--warm-black);
+
+}
+
+.beneficios-details--batata-logo {
+    position: absolute;
+    top: -1.2rem;
+    left: calc(50% - 2rem);
+}
+
+.main__beneficios--cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.main__beneficios--title {
+    padding: 3.2rem 0;
+}
+.main__beneficios--title h2 {
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+
+    color: var(--just-white);
+    text-align: center;
+
+    font-family: var(--font-family-DM-sans);
+    font-size: var(--font-size-main-title);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+.main__beneficios--title p {
+    margin-top: 2.4rem;
+    color: var(--grey);
+    text-align: center;
+
+    /* H2 Mobile */
+    font-family: var(--font-family-DM-sans);
+    font-size: var(--font-size-text);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.beneficios-details--card {
+    background-color: var(--warm-black-plus);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1.6rem 2.2rem;
+    width: 100%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    gap: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.beneficios-details__card--title {
+    color: var(--just-white);
+    font-family: var(--font-family-DM-sans);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.beneficios-details__card--text {
+    color: var(--grey);
+    font-family: var(--font-family-DM-sans);
+    font-size: var(--font-size-text);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+@media screen and (min-width: 321px) {
+    .main__beneficios--title h2 {
+        width: 100%;
+    }
+}

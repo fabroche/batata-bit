@@ -1,0 +1,49 @@
+/*
+0. Variables
+1. Posicionamiento
+2. Modelo de caja (Box Model)
+3. Tipografia
+4. Efectos Visuales
+5. Micelanius o Otros
+*/
+
+
+/*Variables*/
+:root {
+    /*Fonts*/
+    --font-family-DM-sans: 'DM Sans', sans-serif;
+    --font-family-Inter: 'Inter', sans-serif;
+    --font-size-main-title: 2.4rem;
+    --font-size-text: 1.4rem;
+    --line-height--main-title: 2.4rem;
+    --line-height--text: 1.8rem;
+
+    /*Colors*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-plus: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+    --linear-bg: linear-gradient(208deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%)
+    /*Spacing*/
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-family-DM-sans);
+}
+
+body {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,125 @@
+.hidden {
+    opacity: 0;
+    position: absolute;
+}
+
+.main__exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 6.4rem;
+    padding-bottom: 4.8rem;
+    text-align: center;
+}
+
+.exchange-container__title {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.exchange-container__picture img {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.exchange-container__title h2 {
+    margin-bottom: 3.2rem;
+    font-size: var(--font-size-main-title);
+    font-weight: 700;
+    font-style: normal;
+    line-height: var(--line-height--main-title);
+    color: var(--warm-black);
+}
+
+.exchange-container__title p {
+    font-size: var(--font-size-text);
+    font-weight: 500;
+    font-style: normal;
+    line-height: var(--line-height--text);
+    color: #757575;
+}
+
+.main__exchange-container__currency-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency-container__icon {
+    grid-row: 1 / 7;
+    align-self: center;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.main-currency-table {
+    display: grid;
+    min-width: 19rem;
+    height: auto;
+    justify-content: center;
+    grid-template: auto / minmax(30px, 0.1fr) repeat(2, 1fr);
+
+    margin-top: 4.8rem;
+    transition: all 300ms ease-in-out;
+}
+
+.main-currency-table:hover .main-currency-table {
+    position: absolute;
+    opacity: 0;
+}
+
+.main-currency-table h2 {
+    font-size: var(--font-size-main-title);
+    font-weight: 700;
+    font-style: normal;
+    line-height: var(--line-height--main-title);
+    grid-column: 2/-1;
+    margin-bottom: 1.2rem;
+    text-align: start;
+    color: var(--secondary-blue);
+}
+
+.main-currency-table div {
+    margin: 0.1rem;
+    padding: 1rem 1.2rem;
+    background-color: var(--just-white);
+    color: var(--grey);
+}
+
+.main-currency-table div:last-child {
+    font-family: var(--font-family-Inter);
+    font-size: 1.2rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    grid-column: 2/4;
+    min-width: 17.3rem;
+    /*height: 3.1rem;*/
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    padding: 0.8rem;
+    background-color: var(--soft-blue);
+    color: var(--warm-black);
+}
+
+.main-currency-table div:nth-child(3) {
+    border-top-left-radius: 8px;
+}
+
+.main-currency-table div:nth-child(4) {
+    border-top-right-radius: 8px;
+}
+
+.main-currency-table div:nth-child(9) {
+    border-bottom-left-radius: 8px;
+}
+
+.main-currency-table div:nth-child(10) {
+    border-bottom-right-radius: 8px;
+}

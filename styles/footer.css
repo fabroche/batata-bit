@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    min-height: 15rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer--social-medias-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.footer--social-medias-container a {
+    text-align: justify;
+    color: var(--just-white);
+    font-family: var(--font-family-DM-sans);
+    font-size: var(--font-size-text);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-decoration: none;
+    vertical-align: text-bottom;
+}
+.footer--social-medias-container a:hover {
+    text-decoration: underline;
+}
+.social-medias--icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
+    vertical-align: text-bottom;
+}
